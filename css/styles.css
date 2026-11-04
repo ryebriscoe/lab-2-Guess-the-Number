@@ -1,0 +1,72 @@
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    background-image: url("../img/numberBackground.jpg");
+    background-repeat: repeat;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: navy;
+    font-size: 40px;
+    text-shadow: 2px 2px gray;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: normal;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+/* Game box */
+#main {
+    width: 350px;
+    margin: 0 auto;
+    padding: 25px;
+    background: white;
+    border: 3px solid navy;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px gray;
+    line-height: 30px;
+}
+
+/* Text box for the guess */
+#playerGuess {
+    height: 25px;
+    letter-spacing: 2px;
+    border-color: navy;
+    vertical-align: middle;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    min-width: 80px;
+    color: white;
+    background-color: navy;
+}
+
+#resetBtn {
+    background: red;
+}
+
+/* Messages and scores */
+#feedback {
+    min-height: 30px;
+    margin-top: 10px;
+}
+
+#attemptsLeft, #wins, #losses {
+    border-bottom: 2px solid gold;
+}
+
+#guesses {
+    display: inline-block;
+    word-spacing: 8px;
+    font-style: italic;
+    overflow-wrap: break-word;
+}
